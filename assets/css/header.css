@@ -54,7 +54,7 @@
     color: var(--cor-destaque);
     font-weight: 700;
     font-size: 1em;
-    padding: 10px 24px;
+    padding: 24px 0px 0px 24px;
 }
 
 .menu__item{
