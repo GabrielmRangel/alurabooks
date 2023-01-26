@@ -1,3 +1,11 @@
 Projeto: https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=37%3A94&t=8Nmuq528m60Rhc7z-0
 
 Sobre o reset.css: https://www.alura.com.br/artigos/o-que-e-reset-css
+
+Alura+ FlexBox: https://cursos.alura.com.br/extra/alura-mais/css-flexbox-dicas-para-comecar-c301
+
+Alura+ Input: https://cursos.alura.com.br/extra/alura-mais/animacao-de-coracao-um-projeto-em-html-css-c1360
+
+Position CSS: https://www.alura.com.br/artigos/entenda-a-propriedade-position-css
+
+Guia de unidades CSS: https://www.alura.com.br/artigos/guia-de-unidades-no-css

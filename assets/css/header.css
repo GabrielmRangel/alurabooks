@@ -22,6 +22,7 @@
     background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     display: inline-block;
     width: 36px;
     height: 24px;
@@ -53,6 +54,7 @@
     color: var(--cor-destaque);
     font-weight: 700;
     font-size: 1em;
+    padding: 10px 24px;
 }
 
 .menu__item{
