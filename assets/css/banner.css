@@ -36,8 +36,5 @@
     font-family: var(--fonte-principal);
     color: var(--branco);
     text-align: center;
-    background: url("../img/Pesquisa.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 0.1em;
+    background: url("../img/Pesquisa.svg") 1em / contain no-repeat;
 }

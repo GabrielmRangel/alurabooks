@@ -2,10 +2,14 @@
 @import url('header.css');
 @import url('banner.css');
 @import url('carrossel.css');
+@import url('topicos.css');
+@import url('contato.css');
+@import url('rodape.css');
 
 :root{
     --cor-de-fundo: #EBECEE;
     --branco: #FFFFFF;
+    --cinza: #f9f9f9;
     --cor-destaque: #EB9B00;
     --degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --azul-escuro: #002F52;

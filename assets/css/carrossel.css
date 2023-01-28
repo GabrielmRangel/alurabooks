@@ -68,6 +68,7 @@
 
 .botoes{
     display: flex;
+    gap: 0.5em;
 }
 
 .botoes__ancora{
@@ -77,4 +78,12 @@
     font-weight: 700;
     text-decoration: none;
     line-height: 24px;
+}
+
+.card__classificacao{
+    margin-bottom: 0.5em;
+}
+
+.nome--autora{
+    width: auto;
 }
