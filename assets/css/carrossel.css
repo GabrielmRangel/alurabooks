@@ -78,6 +78,7 @@
     font-weight: 700;
     text-decoration: none;
     line-height: 24px;
+    text-align: center;
 }
 
 .card__classificacao{
@@ -86,4 +87,86 @@
 
 .nome--autora{
     width: auto;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo{
+        font-size: 26px;
+        line-height: 39px;
+        padding: 2em 0 0.5em 0;
+    }
+
+    .swiper-pagination{
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper{
+        width: 80%;
+        padding-left: 3em;
+        padding-right: 0.5em;
+    }
+
+    .swiper-slide img{
+        width: 80%;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        display: block;
+        top: 20%;
+        color: transparent;
+    }
+
+    .swiper-button-prev::before{
+        content:"<";
+        color: var(--branco);
+        font-size: 24px;
+        font-weight: 400;
+        background: var(--degrade);
+        border-radius: 50%;
+        padding: 20% 60%;
+        position: relative;
+        left: -10px;
+    }
+
+    .swiper-button-next::before{
+        content:">";
+        color: var(--branco);
+        font-size: 24px;
+        font-weight: 400;
+        background: var(--degrade);
+        border-radius: 50%;
+        padding: 20% 60%;
+        position: relative;
+        left: -20px;
+    }
+
+    .card{
+        width: 588px;
+        height: 266px;
+        margin: 3em auto;
+    }
+
+    .card__descricao{
+        margin-bottom: 2em;
+        align-items: center;
+    }
+
+    .descricao__titulo{
+        width: 320px;
+    }
+
+    .descricao__titulo-livro{
+        width: auto;
+    }
+
+    .descricao__texto{
+        width: 318px;
+        line-height: 24px;
+    }
+
+    .descricao__img{
+        width: 192px;
+        height: 170px;
+    }
+
 }

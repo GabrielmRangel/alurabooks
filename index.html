@@ -29,10 +29,30 @@
             </ul>
 
             <img src="assets/img/Logo.svg" alt="Logo da Alura" class="cabecalho__logo">
+
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
 
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item">CATEGORIAS</li>
+            </label>
+
+            <ul class="cabecalho__lista-menu">
+                <li class="menu__item"><a href="#" class="menu__item__link">PROGRAMAÇÃO</a></li>
+                <li class="menu__item"><a href="#" class="menu__item__link">FRONT-END</a></li>
+                <li class="menu__item"><a href="#" class="menu__item__link">INFRAESTRUTURA</a></li>
+                <li class="menu__item"><a href="#" class="menu__item__link">BUSINESS</a></li>
+                <li class="menu__item"><a href="#" class="menu__item__link">DESIGN & UX</a></li>
+            </ul>
+
+            <li class="opcoes__item"><a href="#" class="opcoes__link">FAVORITOS</a></li>
+            <li class="opcoes__item"><a href="#" class="opcoes__link">MINHA ESTANTE</a></li>
+        </ul>
+
         <div class="cabecalho--direita">
-            <a href="#" class="cabecalho__links"><img src="assets/img/Favoritos.svg" alt="Favoritos" class="cabecalho__links__icones"></a>
+            <a href="#" class="cabecalho__links"><img src="assets/img/Favoritos.svg" alt="Favoritos" class="cabecalho__links__icones img__coracao"></a>
             <a href="#" class="cabecalho__links"><img src="assets/img/Compras.svg" alt="Sacola de compras" class="cabecalho__links__icones"></a>
             <a href="#" class="cabecalho__links"><img src="assets/img/Usuário.svg" alt="Meu perfil" class="cabecalho__links__icones"></a>
         </div>
@@ -158,9 +178,10 @@
     </section>
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-
-        <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        <div class="contato__descricao">
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</p>
+        </div>
 
         <input type="email" class="contato__email" placeholder="Cadastre o seu e-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="E-mail inválido">
     </section>
