@@ -94,6 +94,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .cabecalho{
+        padding: 18px 40px;
+    }
+
+    .container__rotulo{
+        display: none;
+    }
+
+    .cabecalho__logo{
+        margin: 0 1em;
+    }
+
     .container__titulo, .container__titulo--negrito{
         font-family: var(--fonte-titulo);
         font-size: 30px;
@@ -102,7 +114,10 @@
     .container__titulo{
         font-weight: 400;
         display: block;
-        align-self: flex-end;
+        align-self: center;
+        position: relative;
+        top: 8px;
+        margin-right: auto;
     }
 
     .container__titulo--negrito{
