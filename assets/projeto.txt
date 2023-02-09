@@ -10,10 +10,10 @@ Position CSS: https://www.alura.com.br/artigos/entenda-a-propriedade-position-cs
 
 Guia de unidades CSS: https://www.alura.com.br/artigos/guia-de-unidades-no-css
 
-\\\ --- Visto --- ///
-
 https://www.alura.com.br/artigos/flexibilidade-em-paginas-para-dispositivos-moveis-com-media-queries
 
 https://cursos.alura.com.br/forum/topico-sugestao-pessoal-acabei-modificando-a-setinha-dos-swipers-para-ficar-igual-ao-figma-e-arrumei-um-probleminha-que-tive-nas-setas-do-swiper-aqui-vai-248491
 
 https://www.alura.com.br/artigos/por-que-um-design-responsivo-e-importante-para-potencializar-seu-marketing
+
+\\\ --- Visto --- ///
